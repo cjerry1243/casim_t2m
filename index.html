@@ -177,7 +177,6 @@
             Notably, CASIM is model and representation-agnostic, readily integrating with both autoregressive and diffusion-based methods. 
             Experiments on HumanML3D and KIT bench- marks demonstrate that CASIM consistently improves motion quality, text-motion alignment, and retrieval scores across state-of-the-art methods. 
             Qualitative analyses further highlight the superiority of our composite aware approach over fixed-length semantic injection, enabling precise motion control from text prompts and stronger generalization to unseen text inputs.
-
           </p>
         </div>
       </div>
@@ -186,6 +185,51 @@
 </section>
 <!-- End paper abstract -->
 
+
+<!-- Architecture -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">Architecture</h2>
+      <img src="static/images/architecture.png" alt=""/>
+      <p>
+        <!-- <h2 class="subtitle has-text-centered"> -->
+          <b>CASIM</b> CASIM consists of two major components: <i>Composite Aware Text Encoder</i> (Left) for extracting granular word-level embeddings and <i>Text-Motion Aligner</i> (Middle) for aligning motion embeddings with relevant textual embeddings inside a motion generator. 
+          <!-- The attention score distribution between different motion tokens and the text tokens is visualized on the upper left.  -->
+          The Text-Motion Aligner can be integrated with three genres of motion generation models (Right).
+          <!-- </h2> -->
+      </p>
+    </div>
+  </div>
+</section> 
+<!-- End Architecture -->
+
+<!-- Image carousel -->
+<section class="section hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Quantitative Results on HumanML3D & KIT-ML datasets</h2>
+          <div class="content has-text-justified">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item">
+                <img src="static/images/Tab1&2.png" alt=""/>
+                <!-- <h2 class="subtitle has-text-centered">
+                </h2> -->
+              </div>
+
+              <div class="item">
+                <img src="static/images/Tab3&4.png" alt=""/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End image carousel -->
 
 <!-- Youtube video -->
 <!-- <section class="section hero">
@@ -213,13 +257,13 @@
     <div class="container">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3"></h2>
+          <h2 class="title is-3">Qualitative Results</h2>
           <div class="content has-text-justified">
             <!-- <div class="publication-video">
               <iframe src="https://www.youtube.com/embed/E652bX8U09w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div> -->
             <div class="publication-video">
-              <video poster="" id="video1" autoplay controls muted loop height="100%">
+              <video poster="" id="video1" controls muted height="100%">
                 <source src="static/videos/CASIM_Supp_Vid.mp4"
                 type="video/mp4">
               </video>
