@@ -5,8 +5,8 @@
 
 
 [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://cjerry1243.github.io/casim_t2m/)
-[![Paper](https://img.shields.io/badge/Paper-Link-blue)]()
-[![arXiv](https://img.shields.io/badge/arXiv-2306.16772-red)]()
+[![Paper](https://img.shields.io/badge/Paper-Link-blue)](https://arxiv.org/abs/2502.02063)
+[![arXiv](https://img.shields.io/badge/arXiv-2502.02063-red)](https://arxiv.org/abs/2502.02063)
 
 
 This repository contains the core **CASIM** model and its integration with 3 SOTA text-to-motion generation methods, **MDM, T2MGPT, and CoMo**. All the pretrained checkpoints and training scripts for the three CASIM-integrated models are provided.
