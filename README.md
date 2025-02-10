@@ -19,11 +19,9 @@ Recent advances in generative modeling and tokenization have driven significant 
 **TLDR**. We propose CASIM, a composite-aware semantic injection mechanism for text to motion generation that exhibits stronger text-motion correspondence and better generalizability.
 ![Teaser](assets/Teaser.png)
 
-## Video Demo
-
-TBD
 
 ## CASIM-MDM 
+
 
 ### To Do
 
@@ -70,9 +68,14 @@ TBD
 
 If you find our work useful, please cite with the following bibtex:
 
-<!-- ```BibTeX
-
-``` -->
+```BibTeX
+@article{chang2025casim,
+  title={CASIM: Composite Aware Semantic Injection for Text to Motion Generation},
+  author={Chang, Che-Jui and Liu, Qingze Tony and Zhou, Honglu and Pavlovic, Vladimir and Kapadia, Mubbasir},
+  journal={arXiv preprint arXiv:2502.02063},
+  year={2025}
+}
+```
 
 ## Acknowledgement
 
