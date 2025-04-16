@@ -29,19 +29,19 @@ mv YOUR_CKPT_DIR/CASIM-MDM* save/
 - Generate from a single prompt
 
 ```bash
-python -m sample.generate --model_path save/CASIM-MDM-Enc-1000steps_FinalProj/model000200000.pt --text_prompt "the person walks forward and is picking up his toolbox with his left hand." --use_casim --arch trans_enc --diffusion_steps 1000 --clip_final_proj
+python -m sample.generate --model_path save/CASIM-MDM-Enc-1000steps/model000200000.pt --text_prompt "the person walks forward and is picking up his toolbox with his left hand." --use_casim --arch trans_enc --diffusion_steps 1000
 ```
 
 - Generate from the example text file:
 
 ```bash
-python -m sample.generate --model_path save/CASIM-MDM-Enc-1000steps_FinalProj/model000200000.pt  --input_text ./assets/casim_example_text_prompts.txt --use_casim --arch trans_enc --diffusion_steps 1000 --clip_final_proj
+python -m sample.generate --model_path save/CASIM-MDM-Enc-1000steps/model000200000.pt  --input_text ./assets/casim_example_text_prompts.txt --use_casim --arch trans_enc --diffusion_steps 1000
 ```
 
 - Generate from test set prompts:
 
 ```bash
-python -m sample.generate --model_path save/CASIM-MDM-Enc-1000steps_FinalProj/model000200000.pt --num_samples 10 --num_repetitions 3 --use_casim --arch trans_enc --diffusion_steps 1000 --clip_final_proj
+python -m sample.generate --model_path save/CASIM-MDM-Enc-1000steps/model000200000.pt --num_samples 10 --num_repetitions 3 --use_casim --arch trans_enc --diffusion_steps 1000
 ```
 
 The generated motions and stick figure visualization will be saved under `save/`.
