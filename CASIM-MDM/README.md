@@ -72,7 +72,7 @@ python -m eval.eval_humanml --model_path save/CASIM-MDM-DEC-1000steps/model00020
 - CASIM-MDM decoder variant with 50 diffusion steps:
 
 ```bash
-python -m eval.eval_humanml --model_path save/CASIM-MDM-DEC-50steps/model000300000.pt --dataset humanml  --use_casim --arch trans_dec --diffusion_steps 50 --eval_mode no_sample_limit
+python -m eval.eval_humanml --model_path save/CASIM-MDM-DEC-50steps/model000100000.pt --dataset humanml  --use_casim --arch trans_dec --diffusion_steps 50 --eval_mode no_sample_limit
 ```
 
 - CASIM-MDM encoder variant with 1000 diffusion steps:
